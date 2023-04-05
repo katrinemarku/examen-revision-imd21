@@ -1,0 +1,11 @@
+.box-relative {
+  background-color: bisque;
+  border: 1px solid red;
+  padding: 10px 30px;
+  display: block;
+}
+.box-relative {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
