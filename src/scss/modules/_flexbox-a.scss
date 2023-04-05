@@ -3,6 +3,7 @@
   border: 1px solid red;
   padding: 10px 30px;
 }
+
 #flexbox-a1 {
   .wrapper {
     display: flex;
@@ -15,5 +16,14 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+  }
+}
+
+#flexbox-a3 {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 }
