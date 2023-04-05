@@ -23,3 +23,16 @@
     height: 50%;
   }
 }
+
+#flexbox-c3 {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .box {
+    width: 50%;
+  }
+}
