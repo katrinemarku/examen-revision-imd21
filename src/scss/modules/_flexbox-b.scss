@@ -14,3 +14,15 @@
     justify-content: flex-end;
   }
 }
+
+#flexbox-b3 {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 50%;
+  }
+}
