@@ -1,0 +1,19 @@
+.box {
+  background-color: bisque;
+  border: 1px solid red;
+  padding: 10px 30px;
+}
+#flexbox-a1 {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+#flexbox-a2 {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
