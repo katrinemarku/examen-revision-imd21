@@ -1,0 +1,16 @@
+#flexbox-b1 {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+#flexbox-b2 {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
